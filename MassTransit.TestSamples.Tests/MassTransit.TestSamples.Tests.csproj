@@ -91,11 +91,11 @@
     <Compile Include="TestSubscriberWithRabbitMq.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UnityTest.Messaging\MassTransit.TestSamples.Messaging.csproj">
+    <ProjectReference Include="..\MassTransit.TestSamples.Messaging\MassTransit.TestSamples.Messaging.csproj">
       <Project>{917a39d5-679c-4076-aeb0-b91c11f599f6}</Project>
       <Name>MassTransit.TestSamples.Messaging</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UnityTest.Publisher\MassTransit.TestSamples.Publisher.csproj">
+    <ProjectReference Include="..\MassTransit.TestSamples.Publisher\MassTransit.TestSamples.Publisher.csproj">
       <Project>{b536bde2-1922-4b9b-baee-cf69ac3a7cc1}</Project>
       <Name>MassTransit.TestSamples.Publisher</Name>
     </ProjectReference>
