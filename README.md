@@ -1,7 +1,7 @@
 MassTransit.TestSamples
 =======================
 
-Experimenting with different ways to test MassTransit
+Experimenting with different ways to test an application that publishes messages using MassTransit.
 
 ## MockBusWithMoq ##
 
