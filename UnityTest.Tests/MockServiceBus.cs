@@ -2,7 +2,7 @@
 
 using MassTransit;
 
-namespace UnityTest.Tests
+namespace MassTransit.TestSamples.Tests
 {
 	// A mock mass transit service bus for testing.
 	class MockServiceBus : IServiceBus

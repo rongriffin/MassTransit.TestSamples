@@ -1,4 +1,6 @@
-﻿namespace UnityTest.Publisher
+﻿using MassTransit.TestSamples.Messaging;
+
+namespace MassTransit.TestSamples.Publisher
 {
 	internal class Publisher
 	{
@@ -7,7 +9,7 @@
 		/// </summary>
 		public static void Publish()
 		{
-			BusDepot.Bus.Publish(new Messaging.MyMessage {Message = "hello from publisher"} );
+			BusDepot.Bus.Publish(new MyMessage {Message = "hello from publisher"} );
 		}
 	}
 }

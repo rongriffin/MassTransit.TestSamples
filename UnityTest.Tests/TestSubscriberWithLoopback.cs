@@ -2,9 +2,9 @@
 using MassTransit;
 using Microsoft.QualityTools.Testing.Fakes;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using UnityTest.Publisher;
+using MassTransit.TestSamples.Publisher;
 
-namespace UnityTest.Tests
+namespace MassTransit.TestSamples.Tests
 {
 	/// <summary>
 	/// This example replaces the Bus instance with a new bus that uses the loopback protocol

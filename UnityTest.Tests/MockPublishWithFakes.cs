@@ -2,7 +2,7 @@
 using Microsoft.QualityTools.Testing.Fakes;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnityTest.Tests
+namespace MassTransit.TestSamples.Tests
 {
 	/// <summary>
 	/// This example mocks the bus' publish method using a test version of IServiceBus

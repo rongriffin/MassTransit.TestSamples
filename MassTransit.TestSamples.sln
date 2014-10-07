@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTest.Messaging", "UnityTest.Messaging\UnityTest.Messaging.csproj", "{917A39D5-679C-4076-AEB0-B91C11F599F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.TestSamples.Messaging", "UnityTest.Messaging\MassTransit.TestSamples.Messaging.csproj", "{917A39D5-679C-4076-AEB0-B91C11F599F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTest.Publisher", "UnityTest.Publisher\UnityTest.Publisher.csproj", "{B536BDE2-1922-4B9B-BAEE-CF69AC3A7CC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.TestSamples.Publisher", "UnityTest.Publisher\MassTransit.TestSamples.Publisher.csproj", "{B536BDE2-1922-4B9B-BAEE-CF69AC3A7CC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityTest.Tests", "UnityTest.Tests\UnityTest.Tests.csproj", "{EBA8DEBC-D803-4D8D-A058-156611E8C92B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit.TestSamples.Tests", "UnityTest.Tests\MassTransit.TestSamples.Tests.csproj", "{EBA8DEBC-D803-4D8D-A058-156611E8C92B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{60B9E0D2-4C58-4046-89E3-BDB298348C6C}"
 	ProjectSection(SolutionItems) = preProject

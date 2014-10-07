@@ -1,10 +1,10 @@
 ﻿using MassTransit;
+using MassTransit.TestSamples.Messaging;
 using Microsoft.QualityTools.Testing.Fakes;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using UnityTest.Messaging;
 
-namespace UnityTest.Tests
+namespace MassTransit.TestSamples.Tests
 {
 	/// <summary>
 	/// This example uses Moq to intercept the Bus's Publish method

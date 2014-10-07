@@ -3,7 +3,7 @@ using System.Threading;
 using MassTransit;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UnityTest.Tests
+namespace MassTransit.TestSamples.Tests
 {
 	/// <summary>
 	/// This example attaches a rabbitmq subscriber to a tested process in order

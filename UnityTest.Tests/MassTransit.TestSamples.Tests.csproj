@@ -6,8 +6,8 @@
     <ProjectGuid>{EBA8DEBC-D803-4D8D-A058-156611E8C92B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnityTest.Tests</RootNamespace>
-    <AssemblyName>UnityTest.Tests</AssemblyName>
+    <RootNamespace>MassTransit.TestSamples.Tests</RootNamespace>
+    <AssemblyName>MassTransit.TestSamples.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -47,6 +47,9 @@
     <Reference Include="MassTransit">
       <HintPath>..\packages\MassTransit.2.9.8\lib\net40\MassTransit.dll</HintPath>
     </Reference>
+    <Reference Include="MassTransit.TestSamples.Publisher.Fakes">
+      <HintPath>FakesAssemblies\MassTransit.TestSamples.Publisher.Fakes.dll</HintPath>
+    </Reference>
     <Reference Include="MassTransit.Transports.RabbitMq, Version=2.9.0.0, Culture=neutral, PublicKeyToken=b8e0e9f2f1e657fa, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\MassTransit.RabbitMQ.2.9.8\lib\net40\MassTransit.Transports.RabbitMq.dll</HintPath>
@@ -65,9 +68,6 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
-    <Reference Include="UnityTest.Publisher.Fakes">
-      <HintPath>FakesAssemblies\UnityTest.Publisher.Fakes.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -91,18 +91,18 @@
     <Compile Include="TestSubscriberWithRabbitMq.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UnityTest.Messaging\UnityTest.Messaging.csproj">
+    <ProjectReference Include="..\UnityTest.Messaging\MassTransit.TestSamples.Messaging.csproj">
       <Project>{917a39d5-679c-4076-aeb0-b91c11f599f6}</Project>
-      <Name>UnityTest.Messaging</Name>
+      <Name>MassTransit.TestSamples.Messaging</Name>
     </ProjectReference>
-    <ProjectReference Include="..\UnityTest.Publisher\UnityTest.Publisher.csproj">
+    <ProjectReference Include="..\UnityTest.Publisher\MassTransit.TestSamples.Publisher.csproj">
       <Project>{b536bde2-1922-4b9b-baee-cf69ac3a7cc1}</Project>
-      <Name>UnityTest.Publisher</Name>
+      <Name>MassTransit.TestSamples.Publisher</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Fakes Include="Fakes\UnityTest.Publisher.fakes" />
     <None Include="App.config" />
+    <Fakes Include="Fakes\MassTransit.TestSamples.Publisher.fakes" />
     <None Include="packages.config" />
   </ItemGroup>
   <Choose>

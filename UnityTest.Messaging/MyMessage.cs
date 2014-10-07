@@ -1,8 +1,6 @@
 ﻿using System;
-using MassTransit;
 
-
-namespace UnityTest.Messaging
+namespace MassTransit.TestSamples.Messaging
 {
 	/// <summary>
 	/// A message to send over the bus.

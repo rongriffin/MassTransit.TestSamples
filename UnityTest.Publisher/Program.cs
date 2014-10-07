@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UnityTest.Publisher
+namespace MassTransit.TestSamples.Publisher
 {
 	/// <summary>
 	/// Just a demo program that publishes forever

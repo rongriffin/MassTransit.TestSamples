@@ -7,8 +7,8 @@
     <ProjectGuid>{917A39D5-679C-4076-AEB0-B91C11F599F6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UnityTest.Messaging</RootNamespace>
-    <AssemblyName>UnityTest.Messaging</AssemblyName>
+    <RootNamespace>MassTransit.TestSamples.Messaging</RootNamespace>
+    <AssemblyName>MassTransit.TestSamples..Messaging</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>

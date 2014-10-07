@@ -1,7 +1,7 @@
 ﻿using MassTransit;
-using UnityTest.Messaging;
+using MassTransit.TestSamples.Messaging;
 
-namespace UnityTest.Tests
+namespace MassTransit.TestSamples.Tests
 {
 
 	/// <summary>

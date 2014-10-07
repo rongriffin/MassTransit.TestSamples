@@ -1,7 +1,7 @@
 ﻿using System.Configuration;
 using MassTransit;
 
-namespace UnityTest.Publisher
+namespace MassTransit.TestSamples.Publisher
 {
 	internal static class BusDepot
 	{

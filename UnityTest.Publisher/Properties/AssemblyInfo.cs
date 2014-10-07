@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("UnityTest.Publisher")]
+[assembly: AssemblyTitle("MassTransit.TestSamples.Publisher")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("UnityTest.Publisher")]
+[assembly: AssemblyProduct("MassTransit.TestSamples.Publisher")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -34,5 +34,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: InternalsVisibleTo("UnityTest.Tests")]
-[assembly: InternalsVisibleTo("UnityTest.Publisher.Fakes")]
+[assembly: InternalsVisibleTo("MassTransit.TestSamples.Tests")]
+[assembly: InternalsVisibleTo("MassTransit.TestSamples.Publisher.Fakes")]
