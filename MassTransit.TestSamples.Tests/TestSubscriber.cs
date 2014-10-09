@@ -15,8 +15,8 @@ namespace MassTransit.TestSamples.Tests
 
 		public void Consume(MyMessage message)
 		{
-			MessageRecieved = true;
 			TheMessage = message;
+			MessageRecieved = true;
 		}
 	}
 }

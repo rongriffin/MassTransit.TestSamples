@@ -21,7 +21,7 @@ namespace MassTransit.TestSamples.Tests
 		[TestInitialize]
 		public void Init()
 		{
-			//WARNING : Test queues will persist unless you delete them manuall or via RabbitMQ policies.
+			//WARNING : Test queues will persist unless you delete them manually or via RabbitMQ policies.
 			_testRabbitMqBus = ServiceBusFactory.New(sbc =>
 			{
 				sbc.UseRabbitMq();
