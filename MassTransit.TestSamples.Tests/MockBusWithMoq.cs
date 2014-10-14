@@ -16,7 +16,7 @@ namespace MassTransit.TestSamples.Tests
 		/// Intercept Publish with Moq in order to inspect the published message.
 		/// </summary>
 		[TestMethod]
-		public void VerifyPublishedMessageWithMoq()
+		public void InspectPublishedMessageWithMoq()
 		{
 			var mockBus = new Mock<IServiceBus>();
 			string message = null;

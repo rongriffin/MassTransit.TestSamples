@@ -15,7 +15,7 @@ namespace MassTransit.TestSamples.Tests
 		/// Fake the bus creation with the MockServiceBus to control the Publish method.
 		/// </summary>
 		[TestMethod]
-		public void InspectMessageWithFakes()
+		public void InspectPublishedMessageWithFakes()
 		{
 			var mockBus = new MockServiceBus();
 			var busCreation = false;
