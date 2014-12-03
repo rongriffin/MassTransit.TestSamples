@@ -39,7 +39,7 @@ namespace MassTransit.TestSamples.Tests
 			var subscriber = new TestSubscriber();
 
 			//Attach our test subscriber to the bus.
-			_testRabbitMqBus.SubscribeConsumer(() => subscriber);
+			var unsubscribe = _testRabbitMqBus.SubscribeConsumer(() => subscriber);
 
 			Publisher.Publisher.Publish();
 			var second = 0;
@@ -53,6 +53,8 @@ namespace MassTransit.TestSamples.Tests
 				Thread.Sleep(1000);
 				second++;
 			}
+
+			unsubscribe.Invoke();
 
 			Assert.IsTrue(subscriber.MessageRecieved);
 			Assert.IsNotNull(subscriber.TheMessage);
